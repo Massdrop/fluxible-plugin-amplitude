@@ -1,0 +1,20 @@
+{
+  "name": "fluxible-plugin-amplitude",
+  "version": "0.0.0",
+  "description": "Integrate the amplitude SDK in your fluxible application",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "fluxible",
+    "amplitude"
+  ],
+  "author": {
+    "name": "Darren Craine",
+    "email": "darren.craine@massdrop.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "es6-promise": "^2.1.1"
+  }
+}
