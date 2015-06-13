@@ -4,6 +4,10 @@
   "description": "Integrate the amplitude SDK in your fluxible application",
   "main": "index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Massdrop/fluxible-plugin-amplitude.git"
+  },
   "keywords": [
     "fluxible",
     "amplitude"
@@ -12,6 +16,10 @@
     "name": "Darren Craine",
     "email": "darren.craine@massdrop.com"
   },
+  "bugs": {
+    "url": "https://github.com/Massdrop/fluxible-plugin-amplitude/issues"
+  },
+  "homepage": "https://github.com/Massdrop/fluxible-plugin-amplitude",
   "license": "MIT",
   "dependencies": {
     "debug": "^2.1.3",
