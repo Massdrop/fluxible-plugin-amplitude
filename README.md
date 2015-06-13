@@ -27,7 +27,7 @@ Add it to your fluxible context :
 
 import amplitudePlugin from 'fluxible-plugin-amplitude';
 
-app.plug(amplitudeplugin({
+app.plug(amplitudePlugin({
     apiKey: 'xxx',
     version: '2.2.0' // this is default
 }));
