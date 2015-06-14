@@ -1,9 +1,10 @@
 Amplitude SDK with Fluxible
 ==========================
 
-Plug & play amplitude SDK for your fluxible application!
+Plug & play [Amplitude SDK](https://github.com/amplitude/Amplitude-Javascript) for your fluxible application.
 
-Shamelessly adapted from [fluxible-facebook-plugin](https://github.com/Hairfie/fluxible-plugin-facebook), thanks for the template [Hairfie](https://github.com/Hairfie)!
+Shamelessly adapted from [fluxible-facebook-plugin](https://github.com/Hairfie/fluxible-plugin-facebook), thanks for the hard work [Hairfie](https://github.com/Hairfie)!
+
 
 Features
 --------
