@@ -1,6 +1,6 @@
 {
   "name": "fluxible-plugin-amplitude",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Integrate the amplitude SDK in your fluxible application",
   "main": "index.js",
   "scripts": {},

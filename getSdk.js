@@ -21,6 +21,15 @@ function getSdk(options) {
     return Promise.reject(new Error('Amplitude: cannot get SDK in server side'));
   }
 
+  try {
+    // Under some circumstances, accessing window.localStorage in IE will throw exception.
+    // In iOS Safari Private mode, localStorage is accessible, but setItem throws exception.
+    window.localStorage.setItem('amplitudeLocalStorageTest', 1);
+    window.localStorage.removeItem('amplitudeLocalStorageTest');
+  } catch(e) {
+    return Promise.reject(new Error('Amplitude: localStorage not available.'));
+  }
+
   if (window.amplitude) {
     return Promise.resolve(window.amplitude);
   }
